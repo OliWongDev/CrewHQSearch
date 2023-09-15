@@ -252,3 +252,5 @@ The following is a search for directors in Adelaide and shows the person's credi
 - A user's availabilities are stored in the front-end database. After this goes through, they are sorted essentially in appearance from most available to least available.
   - Unfortunately, this means to me that the sorting/pagination of results is not applicable in the backend as we cannot give 20 random results from the backend to the front-end. 
   - The backend has no way of determining who is most available vs who is the least.
+
+- The current rollout is city-by-city. This means that for non-admin searchers, the only city searchable is Adelaide. When the platform grows, this will be expanded to include more cities.
